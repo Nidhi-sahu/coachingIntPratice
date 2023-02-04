@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+ nav{
+    width:100%;
+    height: 65px;
+    line-height:75px;
+    padding: 0 100px;
+    position: fixed;
+    background-color: transparent;
+}
+ nav .logo p{
+font-size: larger;
+font-weight: bold;
+color: white;
+float: left;
+
+ }
+
+  nav ul{
+   float: right;
+ }
+
+ nav li{
+    display:inline-block;
+    list-style: none;
+}
+ nav li a{
+    font-size: large;
+    padding: 0 30px;
+    /*text-transform: uppercase;*/
+    color:grey;
+    text-decoration:none;
+}
+nav li .home{
+    color:white;
+}
+
+.pic{
+    background-image: url("arnold-francisca-f77Bh3inUpE-unsplash.jpg");
+    height: 900px;
+    /*width:100%;*/
+
+}
+.pic2{
+    background-color: rgba(0, 0, 0, 0.656);
+    /*opacity: 0.5;*/
+    height: inherit;
+    display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.pic3
+{
+    display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap:40px;
+
+}
+.pic3 h1{
+ font-size: 65px;
+ color:white;
+ 
+ /*padding: 350px 0 100px 500px;*/
+ font-style:normal;
+ color: white;
+ font-weight: 700;
+
+ 
+}
+span{
+color:aqua;
+}
+.pic2 h4{
+    font-size:30px;
+    color:white;
+    align-items:center;
+   
+    
+    font-weight: 700px;
+
+    
+}
+ .pic3 button{
+   height:50px; 
+   width:170px;
+   color: white;
+   background-color: grey;
+   margin-top:15px;
+   font-size: 15px;
+   font-weight: bold;
+  
+}
+
+.rad{
+    border-radius:50px;
+    border-style:groove;
+    color:white;
+    padding: 7px 20px 7px 20px;
+    font-style:normal;
+    font-size:20px;
+    margin-top:50px;
+background-color:transparent;
+   
+}
+
+.rad2{
+    
+        background:white;
+        width: 40px;
+        height: 40px;
+        border-radius: 60%;
+        display: flex;
+        padding-left:20px;
+        margin-right: 350px;
+        margin-top: 50px;
+        /*align-items: center;
+        text-align: center;*/
+      }
+      /*.rad3{
+       
+        
+        background:white;
+        width: 40px;
+        height: 40px;
+        border-radius: 60%;
+        display: flex;
+        /*padding-left:20px;
+        float:right;
+    }*/
+
+    .part2
+    {
+        height: 2000px;
+        width:100%;
+        background-color:  #191919;
+    }
+    .div1 img{
+   padding-top:80px;
+  height: 200px;
+  width:200px;
+   
+    }
+   
